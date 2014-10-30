@@ -1,5 +1,5 @@
 ﻿### What
-A basic implementation of a ray-tracer using C# and following the pattern outlined in (Ray Tracing From the Ground Up)[http://www.raytracegroundup.com/]. 
+A basic implementation of a ray-tracer using C# and following the pattern outlined in [Ray Tracing From the Ground Up](http://www.raytracegroundup.com/). 
 The implementation is still rather incomplete and I plan on getting back to it eventually and building out some additional features.
 
 
