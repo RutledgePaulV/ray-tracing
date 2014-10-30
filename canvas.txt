@@ -1,0 +1,4 @@
+var pixels = new byte[canvas.PixelWidth * canvas.PixelHeight * canvas.Format.BitsPerPixel / 8];
+var rand = new Random();
+rand.NextBytes(pixels);
+canvas.WritePixels(new Int32Rect(0, 0, canvas.PixelWidth, canvas.PixelHeight), pixels, canvas.PixelWidth * canvas.Format.BitsPerPixel / 8, 0);
